@@ -61,7 +61,7 @@ int karatsuba(int x, int y) {
 int main()
 {
     //check both functions generate a same result.
-    int x = 1234;
+    int x = 2789;
     int y = 1348;
     cout <<"Karatsuba multiplication : " <<karatsuba(x, y) << endl;
     cout << "old school multiplication : " << mult(x, y) << endl;
